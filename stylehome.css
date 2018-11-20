@@ -1,0 +1,100 @@
+/* stylehome*/
+
+/* HOMEPAGE*/
+
+body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.navigationbar {
+	width: 80%;
+	margin: 25px 50px 20px 100px;
+}
+
+
+header {
+	background: #F0EBF5;
+}
+
+header ::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav a {
+	color: #120221;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #120221;
+    color: white;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ABOUT PAGE*/
+
+.aboutpage {
+	background-image: url("https://images.pexels.com/photos/113727/pexels-photo-113727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	padding-top: 20px;
+	height: 700px;
+	width: auto;
+}
+
+.about1 {
+	width: 80%;
+	margin: 10px 50px 75px 100px;
+	color: #120221;
+	text-align: center;
+	line-height: 2;
+	border: 4px black solid;
+	padding: 20px;
+}
+
+/* COUCOU CHERI PAGE*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin: 10px 0px 0px 20px;
+}
+
+#coucou p {
+	padding-top: 20px;
+	height: 900px;
+	width: auto;
+	background-image: url("https://images.pexels.com/photos/149637/pexels-photo-149637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+
